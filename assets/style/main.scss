@@ -1,0 +1,66 @@
+@import 'variables';
+
+@import "tailwindcss/base";
+@import "./base.scss";
+
+@import "tailwindcss/components";
+@import "./components.scss";
+
+@import "tailwindcss/utilities";
+@import "./utilities.scss";
+
+:root {
+    --main-bg-color: #{$main-bg-color};
+    --main-bg-red: #{$main-bg-red};
+    --main-bg-red-alt: #{$main-bg-red-alt};
+    --main-bg-dark: #{$main-bg-dark};
+    --main-bg-gray: #{$main-bg-gray};
+    --main-bg-green: #{$main-bg-green};
+  
+    --main-modal-bg: #292b2f;
+    --modal-close-bg: #17181a;
+    --modal-close-bg-hover: #343436;
+  
+    --text-normal: #{$text-normal};
+    --text-link: #{$text-link};
+    --text-link-hover: #{$text-link-hover};
+  
+    --sidebar-bg-color: #{$sidebar-bg-color};
+    --sidebar-brand-padding-top: #{$sidebar-brand-padding-top};
+    --sidebar-brand-padding-bottom: #{$sidebar-brand-padding-bottom};
+  
+    --btn-danger-primary: #b41030;
+    --btn-danger-secondary: #b9213f;
+  
+    --hero-background-color: #fc374e;
+  
+    --gray: #ebeff0 !important;
+  }
+  
+  html {
+    body {
+      background: var(--main-bg-color);
+      min-height: 100vh;
+      font-family: 'Titillium Web', sans-serif;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 55%);
+      overflow-x: hidden;
+  
+      &#login {
+        background: rgb(41,43,47);
+        background: linear-gradient(90deg, rgba(41,43,47,1) 50%, rgba(32,34,37,1) 50%);
+      }
+    }
+  }
+  
+  a {
+    color: var(--text-link);
+    text-decoration: none;
+    transition: color 0.25s;
+    font-weight: 700;
+  
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: var(--text-link-hover);
+    }
+  }

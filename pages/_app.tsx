@@ -1,7 +1,7 @@
-import '../styles/globals.css'
+import '../assets/style/main.scss'
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function AresV2({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
-export default MyApp
+export default AresV2
