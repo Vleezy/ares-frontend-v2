@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# ![Ares A](https://i.imgur.com/1zelxEp.png)
 
-First, run the development server:
+[![CodeFactor](https://www.codefactor.io/repository/github/ares-to-habbo/ares-frontend-v2/badge?s=c6695299cbdc8fd81d4c8b7047f980e2642b4735)](https://www.codefactor.io/repository/github/ares-to-habbo/ares-frontend-v2)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+A blazing fast SPA for your Retro using React & NextJS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 1. Who works on Ares?
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### The Core-Team
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+- Dome [Backend] (Discord: dome#9999)
+- Cam [Frontend] (Discord: Cam#2322)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+## 2. Disclaimer
 
-To learn more about Next.js, take a look at the following resources:
+All rights go to their respective owners.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ares is in no way endorsed, affiliated or associated with Sulake.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ares is a not for profit educational project.
