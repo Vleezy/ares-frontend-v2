@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-a11y/recommended",
+    "stylelint-config-prettier"
+  ],
+  "plugins": [
+    "stylelint-high-performance-animation",
+    "stylelint-a11y",
+    "stylelint-no-indistinguishable-colors"
+  ],
+  "rules": {
+    "max-nesting-depth": [
+      2, {
+        "ignore": ["blockless-at-rules", "pseudo-classes"]
+      }
+    ],
+        "declaration-property-value-disallowed-list": [
+            {
+                "/^border/": [
+                    "0"
+                ]
+            }
+        ],
+    "color-hex-length": "long",
+    "color-no-invalid-hex": true,
+    "selector-max-compound-selectors": 4,
+    "selector-class-pattern": "(^[a-z]|[A-Z0-9])[a-z]*",
+    "plugin/no-low-performance-animation-properties": [true, { "severity": "warning" }],
+    "plugin/stylelint-no-indistinguishable-colors": true,
+    "a11y/font-size-is-readable": [true, {"severity": "warning"}],
+    "a11y/media-prefers-reduced-motion": true,
+    "a11y/content-property-no-static-value": true
+  }
+}

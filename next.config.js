@@ -1,6 +1,7 @@
 module.exports = {
-  reactStrictMode: true,
-  images: {
-    domains: ['images.unsplash.com']
-  }
-}
+    webpack5: true,
+    reactStrictMode: true,
+    images: {
+        domains: ["habbo.com"],
+    },
+};

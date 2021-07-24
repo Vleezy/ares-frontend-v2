@@ -1,6 +1,6 @@
-import { Layout } from "../components/Layout";
+import { Layout } from "../components/common/Layout";
 
-export default function Home() {
+export default function Index() {
   return (
     <Layout>
       <div className="p-4 text-gray-500">

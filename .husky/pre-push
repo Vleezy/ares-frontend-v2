@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn lint
+yarn test --ci --collectCoverage=true --watchAll=false --silent
+yarn prettier --check "src/**/*.{tsx,ts,css,scss,md,sass}"
+yarn build
+yarn build-storybook
