@@ -3,6 +3,6 @@
 
 yarn lint
 yarn test --ci --collectCoverage=true --watchAll=false --silent
-yarn prettier --check "src/**/*.{tsx,ts,css,scss,md,sass}"
+yarn prettier --check "components/**/*.{tsx,ts,css,scss,md,sass}"
 yarn build
 yarn build-storybook
