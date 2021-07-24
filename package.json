@@ -34,6 +34,9 @@
             "html",
             "text"
         ],
+        "testPathIgnorePatterns": [
+            "pages"
+        ],
         "collectCoverageFrom": [
             "<rootDir>/**/*.{ts,tsx}",
             "!<rootDir>/**/*.stories.tsx",
