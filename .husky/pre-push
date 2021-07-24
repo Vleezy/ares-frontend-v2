@@ -5,4 +5,3 @@ yarn lint
 yarn test --ci --collectCoverage=true --watchAll=false --silent
 yarn prettier --check "src/components/**/*.{tsx,ts,css,scss,md,sass}"
 yarn build
-yarn build-storybook
