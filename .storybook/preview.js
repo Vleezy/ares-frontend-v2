@@ -1,7 +1,7 @@
 import { addDecorator } from "@storybook/react";
 import { withPerformance } from "storybook-addon-performance";
 import * as nextImage from "next/image";
-import "../assets/style/main.scss";
+import "../src/assets/main.scss";
 
 addDecorator(withPerformance);
 
