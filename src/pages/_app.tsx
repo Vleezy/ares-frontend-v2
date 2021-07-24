@@ -1,4 +1,4 @@
-import "../../assets/style/main.scss";
+import "../assets/main.scss";
 import type { AppProps } from "next/app";
 
 function AresV2({ Component, pageProps }: AppProps) {
