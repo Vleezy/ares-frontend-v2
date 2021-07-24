@@ -35,14 +35,15 @@
             "text"
         ],
         "testPathIgnorePatterns": [
-            "pages"
+            "<rootDir>/pages/"
         ],
         "collectCoverageFrom": [
-            "<rootDir>/**/*.{ts,tsx}",
+            "<rootDir>/components/**/*.{ts,tsx}",
             "!<rootDir>/**/*.stories.tsx",
             "!<rootDir>/**/*.d.ts",
             "!<rootDir>/**/types.ts",
-            "!<rootDir>/node_modules/"
+            "!<rootDir>/node_modules/",
+            "!<rootDir>/pages/"
         ],
         "coverageThreshold": {
             "global": {
