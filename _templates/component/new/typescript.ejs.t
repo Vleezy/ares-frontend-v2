@@ -1,7 +1,7 @@
 ---
-to: components/<%= h.path.dirname(name) %>/<%= h.changeCase.pascal(h.path.basename(name)) %>/<%= h.changeCase.pascal(h.path.basename(name)) %>.tsx
+to: src/components/<%= h.path.dirname(name) %>/<%= h.changeCase.pascal(h.path.basename(name)) %>/<%= h.changeCase.pascal(h.path.basename(name)) %>.tsx
 unless_exists: true
-sh: yarn prettier --write "components/<%= h.path.dirname(name) %>/<%= h.changeCase.pascal(h.path.basename(name)) %>/*"
+sh: yarn prettier --write "src/components/<%= h.path.dirname(name) %>/<%= h.changeCase.pascal(h.path.basename(name)) %>/*"
 ---
 import s from "./<%= h.changeCase.pascal(h.path.basename(name)) %>.module.scss";
 

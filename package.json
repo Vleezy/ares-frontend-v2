@@ -8,7 +8,7 @@
         "start": "next start",
         "test": "jest --env=jsdom",
         "component": "hygen component new",
-        "lint": "stylelint components/**/*.scss",
+        "lint": "stylelint src/components/**/*.scss",
         "postinstall": "husky install",
         "storybook": "start-storybook -p 6006 -s public",
         "build-storybook": "build-storybook -s public"
@@ -38,7 +38,7 @@
             "<rootDir>/pages/"
         ],
         "collectCoverageFrom": [
-            "<rootDir>/components/**/*.{ts,tsx}",
+            "<rootDir>/src/components/**/*.{ts,tsx}",
             "!<rootDir>/**/*.stories.tsx",
             "!<rootDir>/**/*.d.ts",
             "!<rootDir>/**/types.ts",
@@ -52,7 +52,7 @@
                 "functions": 80,
                 "branches": 70
             },
-            "./components/": {
+            "./src/components/": {
                 "statements": 90
             }
         },
@@ -62,14 +62,14 @@
         }
     },
     "lint-staged": {
-        "components/**/*.{css,scss,sass}": [
+        "src/components/**/*.{css,scss,sass}": [
             "yarn lint --fix",
             "prettier --write"
         ],
-        "components/**/*.{tsx,ts,css,scss,md}": [
+        "src/components/**/*.{tsx,ts,css,scss,md}": [
             "prettier --write"
         ],
-        "components/**/*.{tsx,ts}": [
+        "src/components/**/*.{tsx,ts}": [
             "yarn test --findRelatedTests --bail --ci --watchAll=false --silent"
         ]
     },

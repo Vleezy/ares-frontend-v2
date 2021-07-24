@@ -10,7 +10,7 @@ module.exports = {
                 prop.parent ? !/node_modules/.test(prop.parent.fileName) : true,
         },
     },
-    stories: ["../components/**/*.stories.tsx"],
+    stories: ["../src/components/**/*.stories.tsx"],
     addons: [
         "@storybook/addon-links",
         "@storybook/addon-essentials",
