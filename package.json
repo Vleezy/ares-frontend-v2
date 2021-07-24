@@ -58,14 +58,14 @@
         }
     },
     "lint-staged": {
-        "src/**/*.{css,scss,sass}": [
+        "components/**/*.{css,scss,sass}": [
             "yarn lint --fix",
             "prettier --write"
         ],
-        "src/**/*.{tsx,ts,css,scss,md}": [
+        "components/**/*.{tsx,ts,css,scss,md}": [
             "prettier --write"
         ],
-        "src/**/*.{tsx,ts}": [
+        "components/**/*.{tsx,ts}": [
             "yarn test --findRelatedTests --bail --ci --watchAll=false --silent"
         ]
     },
