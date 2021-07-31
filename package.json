@@ -104,7 +104,8 @@
         "react-circular-progressbar": "^2.0.4",
         "react-habitat": "^1.0.1",
         "react-merge-refs": "^1.1.0",
-        "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+        "style-loader": "^3.2.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.0.2",
         "web-vitals": "^2.1.0"
     },
     "devDependencies": {
